@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambola World</title>
+    <link rel="stylesheet" href="tambola.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Grape+Nuts&family=Koulen&family=Lora:ital,wght@1,500&family=Macondo&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Koulen&family=Lora:ital,wght@1,500&family=Macondo&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- <script src="https://unpkg.com/sweetalert2@7.8.2/dist/sweetalert2.all.js"></script> -->
+    <script src="tambola.js"></script>
+    
+    <div>
+        <h1 class="new-game"> My Tambola Game</h1>
+        <div class="new-game">
+            <button  id="new_game_btn" onclick="myRandomInts(15,90)">New Game
+            </button>
+        </div>
+        <h2 class="new-game">Tambola ticket </h2>
+       
+        <div class="tab">
+            <table  id="html-data-table">
+                <tr>
+                    <td id="1">3</td>
+                    <td></td>
+                    <td id="2">21</td>
+                    <td></td>
+                    <td id="3">40</td>
+                    <td></td>
+                    <td id="4">61</td>
+                    <td id="5">74</td>
+                    <td></td>
+
+                </tr>
+
+                <tr>
+                    <td id="6">8</td>
+                    <td></td>
+                    <td id="7">23</td>
+                    <td></td>
+                    <td id="8">47</td>
+                    <td></td>
+                    <td id="9">68</td>
+                    <td></td>
+                    <td id="10">84</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td id="11">12</td>
+                    <td></td>
+                    <td id="12">36</td>
+                    <td></td>
+                    <td id="13">53</td>
+                    <td></td>
+                    <td id="14">79</td>
+                    <td id="15">90</td>
+
+                </tr>
+            </table>
+        </div >
+       
+        <div>
+            <div class="new-game">
+                <!-- <button class="new-game" id="btn" onclick="myRandomInts(15,90)">New Game
+                </button> -->
+                <button id="pick" onclick="pickup()">Pick a num</button>
+            </div>
+            <h3 class="new-game">Picked num will be shown here : </h3>
+            <p id="nums"></p>
+
+            <p id="disp" class="new-game">
+                Button Clicked <span id="display"></span> Times
+            </p>
+        </div>
+    </div>
+
+</body>
+
+</html>

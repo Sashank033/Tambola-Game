@@ -1,0 +1,68 @@
+table, td,tr {
+    border:1px solid black;
+    text-align: center;
+}
+td{
+    width: 100px;
+    height: 70px;
+}
+
+h1{
+    
+    font-size: 50px;
+    font-family: 'Grape Nuts', cursive;
+}
+body{
+    background-color:darkturquoise;
+    
+    /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+#new_game_btn{
+    background-color: red;
+    /* margin-top: -300px;
+    margin-left: 705px; */
+    /* position:relative;
+    bottom : 380px;
+    left: 70px; */
+}
+/* .marginClass{
+    margin-top: 20px;
+} */
+.tab{
+    display: flex;
+    margin:10px 0px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.new-game{
+    text-align: center;
+}
+@media  screen and (max-width: 600px) {
+    h1{
+        
+        font-size: 50px;
+        font-family: 'Grape Nuts', cursive;
+    }
+    td{
+        width: 300px;
+        height: 70px;
+    }
+    .tab{
+        display: flex;
+        margin:10px 0px;
+      justify-content: center;
+      align-items: center;
+    }
+    #new_game_btn{
+        background-color: red;
+    
+    }
+    .new-game{
+        text-align: center;
+    }
+   
+  }

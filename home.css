@@ -1,0 +1,23 @@
+body{
+    background-image: url("tambol.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 54px;
+}
+h3{
+    text-align: center;
+}
+.center{
+    text-align: center;
+    margin-top: 49px;
+}
+a{
+    color:black;
+}
+h4{
+    text-align: center;
+}
