@@ -1,1 +1,3 @@
 # Tambola-Game
+This is an web application where the user can play the game by interacting with the buttons to win the game.
+Tambola is basically an Indian Bingo Game or Housie Game is a fun game of numbers, that totally depends on probability. Tambola is a very enjoyable game of numbers. This game is very easy to learn and anyone can play it. here each player must buy at least one ticket to enter a game. Tambola is played with Numbers (1-90) being called out one at a time and players striking out those Numbers on their Tickets. It contains 27 spaces, arranged in nine columns by three rows. Each row contains five numbers and four blank spaces.
